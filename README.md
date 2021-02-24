@@ -1,3 +1,5 @@
+## Aristotle Univeristy of Thessaloniki
+
 ## Fuzzy-Systems-Assignments
 
 # Nick Kaparinos
@@ -5,4 +7,4 @@
 
 **Version 1.0**
 
-**Fuzzy Systems Assignments for Aristotle Univeristy of Thessaloniki**
+Control Systems using Fuzzy Logic Controller (FLC) and Takagi–Sugeno–Kang (TSK) fuzzy models.
