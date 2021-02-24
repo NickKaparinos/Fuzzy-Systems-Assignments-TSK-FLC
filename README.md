@@ -1,7 +1,5 @@
-## Aristotle Univeristy of Thessaloniki
-
 ## Fuzzy-Systems-Assignments
-
+## Aristotle Univeristy of Thessaloniki
 # Nick Kaparinos
 # 2020
 
