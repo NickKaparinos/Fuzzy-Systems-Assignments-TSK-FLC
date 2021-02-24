@@ -5,4 +5,4 @@
 
 **Version 1.0**
 
-Control Systems using Fuzzy Logic Controller (FLC) and Takagi–Sugeno–Kang (TSK) fuzzy models.
+Takagi–Sugeno–Kang (TSK) fuzzy models and Control Systems using Fuzzy Logic Controller (FLC).
