@@ -1,0 +1,54 @@
+[System]
+Name='FLCCARMATLABBACKUP'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='sum'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='dv'
+Range=[0 1]
+NumMFs=3
+MF1='S':'trimf',[-0.5 0 0.5]
+MF2='M':'trimf',[0 0.5 1]
+MF3='L':'trimf',[0.5 1 1.5]
+
+[Input2]
+Name='dh'
+Range=[0 1]
+NumMFs=3
+MF1='S':'trimf',[-0.5 0 0.5]
+MF2='M':'trimf',[0 0.5 1]
+MF3='L':'trimf',[0.5 1 1.5]
+
+[Input3]
+Name='theta'
+Range=[-180 180]
+NumMFs=5
+MF1='NL':'trimf',[-270 -180 -90]
+MF2='ZE':'trimf',[-90 0 90]
+MF3='PL':'trimf',[90 180 270]
+MF4='NS':'trimf',[-180 -90 0]
+MF5='PS':'trimf',[0 90 180]
+
+[Output1]
+Name='DTheta'
+Range=[-130 130]
+NumMFs=5
+MF1='NL':'trimf',[-195 -130 -65]
+MF2='ZE':'trimf',[-65 0 65]
+MF3='PL':'trimf',[63.6243386243386 128.624338624339 193.624338624339]
+MF4='NS':'trimf',[-130 -65 0]
+MF5='PS':'trimf',[0 65 130]
+
+[Rules]
+0 1 4, 3 (1) : 1
+0 1 2, 5 (1) : 1
+0 3 5, 4 (1) : 1
+0 3 4, 5 (1) : 1
