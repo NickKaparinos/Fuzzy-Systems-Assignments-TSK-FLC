@@ -5,4 +5,4 @@
 
 **Version 1.0**
 
-Takagi–Sugeno–Kang (TSK) fuzzy models and Control Systems using Fuzzy Logic Controller (FLC).
+Takagi–Sugeno–Kang (TSK) neuro fuzzy models and Control Systems using Fuzzy Logic Controller (FLC).
